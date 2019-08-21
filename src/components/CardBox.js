@@ -4,7 +4,7 @@ import { Card, Icon } from 'semantic-ui-react';
 const CardBox = (props) => {
   console.log(props);
   return (
-      <Card>
+      <Card className="cardBox">
           <Card.Content header={props.data.name} />
           <Icon name='user' />
           <Card.Content description={props.data.email} />

@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
 
-        {team.map(data => <CardBox key={data.id} data={data} />)}
+        <div className="cardBoxes">{team.map(data => <CardBox key={data.id} data={data} />)}</div>
 
         <Form formAddition={formAddition}/>
 
