@@ -6,7 +6,7 @@ const CardBox = (props) => {
   return (
       <Card className="cardBox">
           <Card.Content header={props.data.name} />
-          <Icon name='user' />
+          <Icon name='id card' />
           <Card.Content description={props.data.email} />
           <Card.Content description={props.data.role} />
       </Card> );
