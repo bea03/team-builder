@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.scss';
-
 import CardBox from './components/CardBox.js';
 import Form from './components/Form.js';
 import { data } from './data.js';
@@ -15,13 +14,9 @@ function App() {
 
   return (
     <div className="App">
-
         <div className="cardBoxes">{team.map(data => <CardBox key={data.id} data={data} />)}</div>
-
         <Form formAddition={formAddition}/>
-
     </div>
   );
 }
-
 export default App;

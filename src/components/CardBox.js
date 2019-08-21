@@ -11,5 +11,4 @@ const CardBox = (props) => {
           <Card.Content description={props.data.role} />
       </Card> );
 };
-
 export default CardBox;
