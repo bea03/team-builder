@@ -1,0 +1,16 @@
+.App {
+  .cardBoxes {
+    margin: 5% 33%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 5% auto;
+
+    input {
+      margin: 2% 0;
+    }
+  }
+}
